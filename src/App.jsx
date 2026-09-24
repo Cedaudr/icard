@@ -9,13 +9,14 @@ export default function App() {
           alt="Ferris wheel"
           className="h-48 w-full rounded-t-xl object-cover"
         />
-        <CardHeader>
+        <CardHeader className="text-left">
           <CardTitle>Headline</CardTitle>
         </CardHeader>
-        <CardContent>
+        <CardContent className="text-left">
           <p className="mb-5 text-sm text-gray-500">
-            welcom to world of enjoyment and fun. with your friends and family, you can enjoy the best moments of your life.
+            Write an amazing description in this dedicated card section.
           </p>
+
           <button className="rounded bg-blue-600 px-4 py-2 text-sm font-bold text-white">
             See more
           </button>
